@@ -4,9 +4,9 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: YourContract
-    network: localhost
+    network: mbase
     source:
-      address: "{{localhost_YourContractAddress}}"
+      address: "{{moonbaseAlpha_YourContractAddress}}"
       abi: YourContract
       startBlock: 1
     mapping:
@@ -18,7 +18,7 @@ dataSources:
         - Sender
       abis:
         - name: YourContract
-          file: ./abis/localhost_YourContract.json
+          file: ./abis/moonbaseAlpha_YourContract.json
       eventHandlers:
         - event: SetPurpose(address,string)
           handler: handleSetPurpose

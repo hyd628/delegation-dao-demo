@@ -168,6 +168,9 @@ function App(props) {
 
   // keep track of a variable from the contract in the local React state:
   const purpose = useContractReader(readContracts, "YourContract", "purpose");
+  const target = useContractReader(readContracts, "DelegationDAO", "target");
+  const totalStake = useContractReader(readContracts, "DelegationDAO", "totalStake"); 
+  const currentState = useContractReader(readContracts, "DelegationDAO", "currentState"); 
 
   /*
   const addressFromENS = useResolveName(mainnetProvider, "austingriffith.eth");
@@ -319,6 +322,9 @@ function App(props) {
             writeContracts={writeContracts}
             readContracts={readContracts}
             purpose={purpose}
+            target={target}
+            totalStake={totalStake}
+            currentState={currentState}
           />
         </Route>
         <Route path="/mainnetdai">

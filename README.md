@@ -1,12 +1,19 @@
 # Useful Links
 
 [Moonbeam Documentation](https://docs.moonbeam.network/)
+
 [Smart Contracts](https://github.com/hyd628/delegation-dao-demo/tree/master/packages/hardhat/contracts)
+
 [Connect to Moonbase Alpha RPC](https://docs.moonbeam.network/builders/get-started/networks/moonbase/#network-endpoints)
+
 [Moonbase Alpha Faucet](https://discord.gg/SZNP8bWHZq)
+
 [Moonscan for Moonbase Alpha](https://moonbase.moonscan.io/)
+
 [Subscan for Moonbase Alpha](https://moonbase.subscan.io/)
+
 [Remix IDE](https://remix.ethereum.org/)
+
 [Scaffold-ETH](https://github.com/scaffold-eth/scaffold-eth)
 
 # 🏄‍♂️ Quick Start
@@ -28,7 +35,7 @@ yarn install
 yarn deploy
 ```
 
-> in a second terminal window, start your 📱 frontend:
+> In a second terminal window, start your 📱 frontend:
 
 ```bash
 cd scaffold-eth

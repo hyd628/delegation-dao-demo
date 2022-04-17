@@ -1,4 +1,4 @@
-# Useful Links
+# 🌕 Useful Links
 
 [Moonbeam Developer Documentation](https://docs.moonbeam.network/)
 
@@ -38,7 +38,6 @@ yarn deploy
 > In a second terminal window, start your 📱 frontend:
 
 ```bash
-cd scaffold-eth
 yarn start
 ```
 

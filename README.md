@@ -1,8 +1,8 @@
 # Useful Links
 
-[Moonbeam Documentation](https://docs.moonbeam.network/)
+[Moonbeam Developer Documentation](https://docs.moonbeam.network/)
 
-[Smart Contracts](https://github.com/hyd628/delegation-dao-demo/tree/master/packages/hardhat/contracts)
+[Smart Contracts Used](https://github.com/hyd628/delegation-dao-demo/tree/master/packages/hardhat/contracts)
 
 [Connect to Moonbase Alpha RPC](https://docs.moonbeam.network/builders/get-started/networks/moonbase/#network-endpoints)
 

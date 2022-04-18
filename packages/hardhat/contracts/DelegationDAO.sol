@@ -140,7 +140,7 @@ contract DelegationDAO is AccessControl {
                 .balance
                 .mul(memberStakes[msg.sender])
                 .div(totalStake);
-            require(check_free_balance() >= amount, "Not enough free balance for withdrawl.");
+            require(check_free_balance() >= amount, "Not enough free balance for withdrawal.");
             Address.sendValue(account, amount);
             totalStake = totalStake.sub(memberStakes[msg.sender]);
             memberStakes[msg.sender] = 0;

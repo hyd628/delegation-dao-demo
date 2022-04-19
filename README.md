@@ -1,5 +1,7 @@
 # 🌕 Useful Links
 
+[Presentation Slides](https://github.com/hyd628/delegation-dao-demo/blob/master/Delegation%20DAO%20Workshop.pdf) 
+
 [Moonbeam Developer Documentation](https://docs.moonbeam.network/)
 
 [Smart Contracts Used](https://github.com/hyd628/delegation-dao-demo/tree/master/packages/hardhat/contracts)

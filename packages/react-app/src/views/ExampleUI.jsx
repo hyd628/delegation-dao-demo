@@ -11,6 +11,7 @@ export default function ExampleUI({
   target,
   totalStake,
   currentState,
+  memberStake,
   address,
   mainnetProvider,
   localProvider,
@@ -37,10 +38,11 @@ export default function ExampleUI({
         <h1>Delegation DAO Example UI:</h1>
         <h2>Target Collator: {target}</h2>
         <h2>Total Stake: {totalStake ? utils.formatEther(totalStake) : "..."}</h2>
+        <h2>Member Stake: {memberStake ? utils.formatEther(memberStake) : "..."}</h2>
         <h2>Current DAO State: {chainState[currentState]}</h2>
         <Divider />
         <div style={{ margin: 8 }}>
-          <h2>Stake Amount: </h2>
+          <h2>Add Stake Amount: </h2>
           <Input
             onChange={e => {
               setNewStake(e.target.value);

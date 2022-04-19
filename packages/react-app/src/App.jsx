@@ -170,7 +170,8 @@ function App(props) {
   const purpose = useContractReader(readContracts, "YourContract", "purpose");
   const target = useContractReader(readContracts, "DelegationDAO", "target");
   const totalStake = useContractReader(readContracts, "DelegationDAO", "totalStake"); 
-  const currentState = useContractReader(readContracts, "DelegationDAO", "currentState"); 
+  const currentState = useContractReader(readContracts, "DelegationDAO", "currentState");
+  const memberStake = useContractReader(readContracts, "DelegationDAO", "memberStakes", [address]);  
 
   /*
   const addressFromENS = useResolveName(mainnetProvider, "austingriffith.eth");
@@ -325,6 +326,7 @@ function App(props) {
             target={target}
             totalStake={totalStake}
             currentState={currentState}
+            memberStake={memberStake}
           />
         </Route>
         <Route path="/mainnetdai">
